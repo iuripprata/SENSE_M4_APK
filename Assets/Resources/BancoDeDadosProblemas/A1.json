@@ -1,0 +1,9 @@
+{
+  "layer": "Problema1",
+  "etapas": [
+    { "tutorial": "Parado antes de começar", "animacao": "Parado" },
+    { "tutorial": "Etapa 1: Teste inicial", "animacao": "animacao_A1-1" },
+    { "tutorial": "Etapa 2: Outra etapa", "animacao": "animacao_A1-2" },
+    { "tutorial": "Etapa 3: Outra etapa2", "animacao": "animacao_A1-3" }
+  ]
+}

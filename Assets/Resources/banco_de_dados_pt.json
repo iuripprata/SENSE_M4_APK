@@ -1,0 +1,152 @@
+{
+  "titulos": {
+    "titulo_cena": "Problemas",
+    "subtitulo": "Escolha a opção que se encaixa com seu problema"
+  },
+  "problemas": [
+    {
+      "titulo": "Ângulo Mínimo (A1)",
+      "descricao": "Alerta gerado quando o ângulo de abertura ou fechamento da válvula é inferior a 30°.",
+      "solucao": "Verifique se o ângulo formado entre o ponto de abertura e o ponto de fechamento está\nacima de 30°. Se não, ajuste o ângulo de abertura ou fechamento da válvula.",
+      "imagem": "A1"
+    },
+    {
+      "titulo": "Tempo Limite (A2)",
+      "descricao": "Alerta por tempo excedente para calibração da válvula, de acordo com o configurado no menu.",
+      "solucao": "Ajuste o tempo configurado para calibração da válvula no menu, garantindo que o tempo\nmáximo para calibração não seja excedido.",
+      "imagem": "A2"
+    },
+    {
+      "titulo": "Falha na Auto Calibração (A3)",
+      "descricao": "Ocorre quando os pontos de aberto e fechado armazenados não são iguais nos ciclos de\ncalibração.",
+      "solucao": "Verifique se os pontos de aberto e fechado estão armazenados corretamente. Caso haja\nfalha, repita o processo de calibração para corrigir o erro.",
+      "imagem": "A3"
+    },
+    {
+      "titulo": "Fora de Faixa (A4)",
+      "descricao": "Alerta devido ao avanço do ponto de abertura ou fechamento da válvula em 5° além da calibração.",
+      "solucao": "Verifique os pontos de calibração e faça o ajuste de 5° na abertura ou fechamento da\nválvula para garantir que esteja dentro da faixa correta.",
+      "imagem": "A4"
+    },
+    {
+      "titulo": "Sem Movimento (A5)",
+      "descricao": "Alerta gerado pela falta de movimento da válvula durante a calibração.",
+      "solucao": "Verifique se a válvula está recebendo os comandos para movimento. Se não, inspecione\nas conexões pneumáticas e os comandos de calibração.",
+      "imagem": "A5"
+    },
+    {
+      "titulo": "Falha de Comando (A6)",
+      "descricao": "Alerta quando a válvula não executa o comando da solenoide.",
+      "solucao": "Verifique a válvula e os comandos da solenoide para garantir que a válvula esteja\nrespondendo ao comando da solenoide.",
+      "imagem": "A6"
+    },
+    {
+      "titulo": "Mudança Inesperada (A7)",
+      "descricao": "Alerta gerado devido a uma mudança de posição inesperada da válvula, independentemente do\ncomando da solenoide.",
+      "solucao": "Inspecione o monitor e a válvula para verificar se houve mudanças inesperadas na\nposição sem comando. Ajuste o sistema conforme necessário.",
+      "imagem": "A7"
+    },
+    {
+      "titulo": "Modo Seguro (A8)",
+      "descricao": "Alerta quando o monitor não está no modo seguro.",
+      "solucao": "Verifique a configuração do monitor e assegure-se de que o monitor esteja operando no\nmodo seguro. Ajuste as configurações conforme necessário.",
+      "imagem": "A8"
+    },
+    {
+      "titulo": "Máx. Pressão na Linha (A9)",
+      "descricao": "Alerta gerado quando a pressão da linha ultrapassa os 9 bar, o que pode danificar\npermanentemente o monitor.",
+      "solucao": "Ajuste a pressão da linha para um valor abaixo de 9 bar para evitar danos ao monitor. A\npressão máxima suportada pelo monitor é de 10 bar.",
+      "imagem": "A9"
+    },
+    {
+      "titulo": "Contador Parcial (A11)",
+      "descricao": "Alerta gerado quando o contador de ciclos parciais atinge o valor configurado.",
+      "solucao": "Verifique o valor do contador de ciclos parciais e ajuste o alarme de manutenção\npreventiva conforme necessário.",
+      "imagem": "A11"
+    },
+    {
+      "titulo": "Contador Total (A12)",
+      "descricao": "Alerta gerado quando o contador total de ciclos atinge o valor configurado.",
+      "solucao": "O contador total de ciclos não deve ser zerado regularmente. Apenas resetá-lo quando for\nsubstituída a válvula.",
+      "imagem": "A12"
+    },
+    {
+      "titulo": "Alerta Dias (A13)",
+      "descricao": "Alerta gerado quando o número de dias de operação atinge o valor configurado.",
+      "solucao": "Ajuste o número de dias configurado no menu para garantir que o alerta seja disparado no\nmomento certo.",
+      "imagem": "A13"
+    },
+    {
+      "titulo": "Alerta Data (A14)",
+      "descricao": "Alerta gerado quando a data configurada é alcançada.",
+      "solucao": "Ajuste a data configurada para garantir que o monitor gere o alerta de acordo com a data\najustada.",
+      "imagem": "A14"
+    },
+    {
+      "titulo": "Tempo Abertura (A15)",
+      "descricao": "Alerta quando o tempo de abertura da válvula ultrapassa o limite configurado.",
+      "solucao": "Ajuste o tempo de abertura da válvula no menu, garantindo que o tempo configurado não\nultrapasse o limite máximo.",
+      "imagem": "A15"
+    },
+    {
+      "titulo": "Tempo Fechamento (A16)",
+      "descricao": "Alerta quando o tempo de fechamento da válvula ultrapassa o limite configurado.",
+      "solucao": "Ajuste o tempo de fechamento da válvula no menu para que a válvula feche corretamente\ndentro do intervalo especificado.",
+      "imagem": "A16"
+    },
+    {
+      "titulo": "Alta Pressão (A17)",
+      "descricao": "Alerta quando a pressão de entrada da válvula está acima da faixa especificada (20%).",
+      "solucao": "Verifique a pressão de entrada e ajuste-a para que ela esteja dentro da faixa de operação\nespecificada no manual.",
+      "imagem": "A17"
+    },
+    {
+      "titulo": "Baixa Pressão (A18)",
+      "descricao": "Alerta quando a pressão de entrada está abaixo da faixa especificada (20%).",
+      "solucao": "Verifique se a pressão de entrada está dentro da faixa recomendada. Ajuste conforme\nnecessário.",
+      "imagem": "A18"
+    },
+    {
+      "titulo": "Alimentação Alta (A19)",
+      "descricao": "Alerta gerado quando a tensão de alimentação excede o limite de 32Vcc para AS-Interface e 10%\npara PNP e DeviceNet.",
+      "solucao": "Verifique a fonte de alimentação e ajuste para que a tensão não ultrapasse 32Vcc para\nAS-Interface e 10% para PNP e DeviceNet.",
+      "imagem": "A19"
+    },
+    {
+      "titulo": "Alimentação Baixa (A20)",
+      "descricao": "Alerta gerado quando a tensão de alimentação está abaixo de 27V para AS-Interface e 22,8V para\nPNP e DeviceNet.",
+      "solucao": "Ajuste a fonte de alimentação para que a tensão esteja acima de 27V para AS-Interface e\n22,8V para PNP e DeviceNet.",
+      "imagem": "A20"
+    },
+    {
+      "titulo": "Temperatura Alta (A21)",
+      "descricao": "Alerta quando a temperatura interna do monitor ultrapassa os 70°C.",
+      "solucao": "Ajuste as condições ambientais ou sistemas de resfriamento para garantir que a\ntemperatura interna do monitor não ultrapasse 70°C.",
+      "imagem": "A21"
+    },
+    {
+      "titulo": "Temperatura Baixa (A22)",
+      "descricao": "Alerta quando a temperatura do monitor fica abaixo de -20°C.",
+      "solucao": "Verifique as condições de operação e ajuste as condições ambientais para que a\ntemperatura interna não fique abaixo de -20°C.",
+      "imagem": "A22"
+    },
+    {
+      "titulo": "Solenoide Curto (A23)",
+      "descricao": "Alerta gerado quando a bobina da solenoide apresenta um curto-circuito.",
+      "solucao": "Verifique a bobina da solenoide para detectar curto-circuito. Substitua a solenoide caso\nnecessário.",
+      "imagem": "A23"
+    },
+    {
+      "titulo": "Solenoide Aberta (A24)",
+      "descricao": "Alerta quando a bobina da solenoide ou o cabo está quebrado.",
+      "solucao": "Verifique a integridade da bobina da solenoide e seus cabos. Substitua ou repare\nconforme necessário.",
+      "imagem": "A24"
+    },
+    {
+      "titulo": "Saída Curto (A25)",
+      "descricao": "Alerta gerado quando qualquer uma das saídas PNP ou suas cargas estão em curto.",
+      "solucao": "Verifique se há curto-circuito nas saídas PNP. Realize as correções necessárias para\nrestaurar a operação adequada.",
+      "imagem": "A25"
+    }
+  ]
+}
